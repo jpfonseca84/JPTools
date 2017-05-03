@@ -2,12 +2,12 @@
 % Please edit documentation in R/FindUsLatLon.R
 \name{findUSLatLon}
 \alias{findUSLatLon}
-\title{This function allows you to find the latitude and longitude based on
-US Zip code. A vector can be provided to the function.}
+\title{This simple function receives a vector of ZIP codes of any length and
+it returns a df with zip, latitude and longitude.}
 \usage{
 findUSLatLon(qzip = NULL)
 }
 \description{
-This function allows you to find the latitude and longitude based on
-US Zip code. A vector can be provided to the function.
+This simple function receives a vector of ZIP codes of any length and
+it returns a df with zip, latitude and longitude.
 }
